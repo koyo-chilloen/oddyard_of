@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Yard Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrap">
+
+        <div class="main-page">
+            <div class="logo">
+                <img src="image/logo.png" alt="Odd Yard Logo">
+            </div>
+            <div class="catchphrase_en">
+                Step into the Odd Yard
+            </div>
+            <div class="catchphrase_ko">
+                새로운 웹의 정원으로 한 걸음
+            </div>
+            <div class="play-button">
+                <button onclick="playMusic(), scrollDown()">알아보기</button>
+            </div>
+        </div>
+
+        <div class="contents">
+            <div class="section" id="what-we-do">
+                <h2>우리가 하는 일 What We Do</h2>
+                <p>Description of what you do.</p>
+            </div>
+
+            <div class="section" id="how-we-work">
+                <h2>How We Work</h2>
+                <p>Description of how you work.</p>
+            </div>
+
+            <div class="section" id="faq">
+                <h2>FAQ</h2>
+                <p>Frequently asked questions and answers.</p>
+            </div>
+
+            <div class="section" id="ask">
+                <h2>Ask</h2>
+                <p>Form or instructions on how to ask questions.</p>
+                <button formsappId="667910b2c02dc3a9fe8e8a82"></button>
+                <script src="https://forms.app/static/embed.js" type="text/javascript" async defer onload="new formsapp('667910b2c02dc3a9fe8e8a82', 'popup', {'overlay':'rgba(45,45,45,0.65)','button':{'color':'#ff9e24','text':' 문의하기'},'width':'800px','height':'600px','openingAnimation':{'entrance':'animate__bounceIn','exit':'animate__bounceOut'}});"></script>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Odd Yard</p>
+        <nav>
+            <a href="#what-we-do">What We Do</a> |
+            <a href="#how-we-work">How We Work</a> |
+            <a href="#faq">FAQ</a> |
+            <a href="#ask">Ask</a>
+        </nav>
+    </footer>
+
+    <audio id="main-music" src="audio/oddyard.mp3"></audio>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

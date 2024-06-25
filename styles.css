@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iceJaram-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceJaram-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.wrap {
+    position:relative;
+    top:0;
+    width:100%;
+    height:100%;
+    transition: transform 1.2s ease;
+    scroll-behavior: smooth;
+}
+
+.main-page {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.catchphrase_en {
+    font-family: "Playwrite MX";
+    font-optical-sizing: auto;
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.catchphrase_ko {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    opacity: 80%;
+}
+
+.play-button button {
+    background-color: #F94671; /* Primary background color */
+    color: #ffffff; /* Text color */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    padding: 15px 30px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.play-button button:hover {
+    background-color: #ff7494; /* Slightly darker shade for hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 3px 3px 1px rgb(220, 220, 220); /* Custom focus outline */
+}
+
+.play-button button:active {
+    background-color: #ff7494; /* Even darker shade for active state */
+    transform: translateY(0); /* Reset lift on active */
+}
+
+
+#what-we-do, #how-we-work, #faq, #ask {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+#what-we-do {
+    background-color: #e3f2fd;
+}
+
+#how-we-work {
+    background-color: #fce4ec;
+}
+
+#faq {
+    background-color: #e8f5e9;
+}
+
+#ask {
+    background-color: #fff3e0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+transition: all 1s cubic-bezier(0.340, -0.600, 0.515, 1.570);
